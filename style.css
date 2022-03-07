@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.calc{
+ display: flex;   
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+.container{
+    outline: none;
+    border: 2px solid crimson;
+    padding: 1rem;
+    background-color: aqua;
+    text-align: center;
+    margin: 14rem;
+    border-radius: 10px;
+}
+h1{
+    font-size: 3rem;
+    color: crimson;
+}
+.container input{
+    font-size: 2rem;
+    outline: none;
+    margin: 1rem 0;
+ border: 2px solid black;
+border-radius:.6rem ;
+}
+table{
+    margin: auto;
+}
+button{
+    cursor: pointer;
+    outline: none;
+    font-size: 1.3rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 97px;
+}
+button:hover{
+    background-color: #ccc;
+    color: black;
+
+}
+@media screen and (max-width:449px )
+{  
+    .container{
+        width: 90%;
+    }
+    .container input{
+        width: 100%;
+    }
+    .container h1{
+        font-size: 1.3rem;
+    }    
+    button{
+        font-size: 1rem;
+        width: 65px;
+    }
+}
+@media screen and (max-width:332px )
+{  
+    .container{
+        width: 90%;
+    }
+    .container input{
+        width: 100%;
+    }
+    .container h1{
+        font-size: 1.3rem;
+    }    
+    button{
+        font-size: 1rem;
+        width: 52px;
+    }
+}
